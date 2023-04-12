@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Таблиця з Caption та заголовками TH</title>
+	<style>
+		table {
+			border-collapse: collapse;
+			width: 100%;
+		}
+		th {
+			background-color: #ccc;
+			text-align: center;
+			padding: 10px;
+		}
+		td {
+			border: 1px solid black;
+			padding: 10px;
+		}
+		.left-align {
+			text-align: left;
+		}
+		.right-align {
+			text-align: right;
+		}
+		.center-align {
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+
+	<table>
+		<caption>Продаж автомобілів</caption>
+		<tr>
+			<th>Марка</th>
+			<th>Рік випуску</th>
+			<th>Ціна</th>
+			<th>Продано</th>
+			<th>Доступність</th>
+		</tr>
+		<tr>
+			<td>Toyota Camry</td>
+			<td>2021</td>
+			<td class="right-align">$30,000</td>
+			<td class="center-align">Так</td>
+			<td class="center-align">Ні</td>
+		</tr>
+		<tr>
+			<td>Ford Mustang</td>
+			<td>2022</td>
+			<td class="right-align">$35,000</td>
+			<td class="center-align">Ні</td>
+			<td class="center-align">Так</td>
+		</tr>
+		<tr>
+			<td>Nissan Altima</td>
+			<td>2021</td>
+			<td class="right-align">$28,000</td>
+			<td class="center-align">Так</td>
+			<td class="center-align">Ні</td>
+		</tr>
+		<tr>
+			<td>Honda Civic</td>
+			<td>2020</td>
+			<td class="right-align">$25,000</td>
+			<td class="center-align">Ні</td>
+			<td class="center-align">Так</td>
+		</tr>
+		<tr>
+			<td>BMW 3 Series</td>
+			<td>2022</td>
+			<td class="right-align">$45,000</td>
+			<td class="center-align">Так</td>
+			<td class="center-align">Ні</td>
+		</tr>
+		<tr>
+			<td>Mercedes-Benz E-Class</td>
+			<td>2021</td>
+			<td class="right-align">$50,000</td>
+			<td class="center-align">Ні</td>
+			<td class="center-align">Так</td>
+		</tr>
+		<tr>
+			<td>Hyundai Sonata</td>
+			<td>2022</td>
+			<td class="right-align">$26,000</td>
+			<td class="center-align">Так</td>
+			<td class="center-align">Ні</td>
+		</tr>
+	</table>
+</body>
+</html>

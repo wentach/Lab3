@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Журнальна сторінка</title>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: Arial, sans-serif;
+			font-size: 16px;
+		}
+		table {
+			width: 100%;
+			border-collapse: collapse;
+		}
+		td {
+			vertical-align: top;
+			padding: 20px;
+		}
+		.left {
+			width: 50%;
+		}
+		.right {
+			width: 50%;
+		}
+		h2 {
+			margin-top: 0;
+		}
+	</style>
+</head>
+<body>
+	<table>
+		<tr>
+			<td colspan="2">
+				<h2>Заголовок статті</h2>
+				<p>Тут може бути підзаголовок або короткий опис статті.</p>
+			</td>
+		</tr>
+		<tr>
+			<td class="left">
+				<p>Перший абзац тексту лівої колонки.</p>
+				<p>Другий абзац тексту лівої колонки.</p>
+			</td>
+			<td class="right">
+				<p>Перший абзац тексту правої колонки.</p>
+				<p>Другий абзац тексту правої колонки.</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<p>Тут може бути додатковий текст статті, який розміщується подвійною шириною колонок.</p>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>
